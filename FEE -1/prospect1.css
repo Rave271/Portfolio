@@ -7,14 +7,14 @@
 }
 
 :root {
-    --primary-color: #ff7613;
+    --primary-color: blueviolet;
     --text-color: #727171;
 }
 
 html{font-size: 10px;}
 
 body{font-family:Inter, sans-serif;
-background-color: black;
+background-color: #08051a;
 color: white;}
 
 /* common styles */
@@ -78,7 +78,7 @@ a{
     margin:0 auto;
     display: grid;
     padding:5rem;  /*1rem=16pixels by default and it represents the font size of the root element and root by default is html*/
-    background: #070707;
+    background: #03010e;
     grid-template-columns:1fr 1fr;
     gap:4rem;
     align-items: center;
@@ -102,6 +102,7 @@ a{
     display: flex;
     flex-direction: column;
     gap:2rem;
+    margin-bottom: 500px;
 }
 
 .group-2{
